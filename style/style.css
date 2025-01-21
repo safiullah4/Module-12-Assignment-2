@@ -61,11 +61,15 @@
 
 
 /* Navbar styles */
+main{
+    background: linear-gradient(to top, #FEA3014D -6%, #FFFFFF 28%);
 
+}
 .nav-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 6.23%;
+    margin: 20px 0;
     align-items: center;
 }
 
@@ -216,6 +220,9 @@ background: linear-gradient(to bottom, #64C8FF66 -6%, #FFFFFF 28%);
 
 
 /* stories styles */
+.stories-section{
+    background: url(../assets/bg.png);
+}
 .stories-container{
     flex-direction: column;
     gap: 80px;
@@ -280,7 +287,10 @@ background: linear-gradient(to bottom, #64C8FF66 -6%, #FFFFFF 28%);
     width: 13.37rem;
     margin: 19px 0 0 0;
 }
-
+.stories-container>button{
+    background-color: #000000;
+    color: #FFFFFF;
+}
 
 
 
@@ -412,8 +422,5 @@ background: linear-gradient(to bottom, #64C8FF66 -6%, #FFFFFF 28%);
 .bg-c-2{
     background-color: #5D58F0;
 } 
-.stories-container>button{
-    background-color: #000000;
-    color: #FFFFFF;
-}
+
 }
