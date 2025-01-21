@@ -239,6 +239,9 @@ background: linear-gradient(to bottom, #64C8FF66 -6%, #FFFFFF 28%);
     font-weight: bold;
 
 }
+.stories-boxes{
+    width: 100%;
+}
 .big-box{
     border-radius: 16px;
 }
@@ -379,10 +382,9 @@ text-align: center;
 /* for small devices */
 @media screen and (max-width:576px) {
     
-    .navbar,.banner-section{
-        width: auto;
-    }
+    
     .navbar{
+        width: 100%;
         border-bottom: 1px solid #FEA301;
     }
     .nav-container{
@@ -398,6 +400,9 @@ text-align: center;
 
 
     /* banner */
+    .banner-section{
+        width: 100%;
+    }
     .banner-image img{
         width: 100%;
     }
@@ -460,6 +465,7 @@ text-align: center;
     padding: 40px 0;
     gap: 20px;
 }
+
 .small-boxes{
     width: 100%;
     grid-gap: 7.5px;
