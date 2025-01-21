@@ -69,7 +69,7 @@ main{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 6.23%;
-    margin: 20px 0;
+    margin: 20px auto;
     align-items: center;
 }
 
