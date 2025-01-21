@@ -488,5 +488,52 @@ text-align: center;
 .bg-c-2{
     background-color: #5D58F0;
 } 
+/* footer */
+footer{
+    height: auto;
+    padding: 60px 0;
+}
+.footer-section{
+    grid-template-columns: repeat(1,1fr);
+}
+.footer-icon-title{
+    width: 100%;
 
+}
+.footer-icon-title div{
+    width: 250px;
+    margin-bottom: 22px;
+}
+.footer-icon-title div img{
+    width: 69px;
+    height: 69px;
+}
+.footer-icon-title div h1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.footer-icon-title p{
+    width: 357px;
+    font-size: 1rem;
+}
+.footer-title-section{
+    text-align: start;
+}
+.About-school{
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer-title-section div{
+    margin: 32px 0;
+}
+.footer-title-section ul{
+    margin-top: 27px;
+
+}
+.footer-links{
+text-align: start;
+}
+.footer-links h3{
+    font-size: 22px;
+}
 }
