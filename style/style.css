@@ -57,6 +57,9 @@
     color: #FFFFFF;
     border-radius: 47.93px;
 }
+.footer-text-color{
+    color: #FFFFFF;
+}
 
 
 
@@ -222,6 +225,7 @@ background: linear-gradient(to bottom, #64C8FF66 -6%, #FFFFFF 28%);
 /* stories styles */
 .stories-section{
     background: url(../assets/bg.png);
+    padding:60px 0 ;
 }
 .stories-container{
     flex-direction: column;
@@ -292,6 +296,68 @@ background: linear-gradient(to bottom, #64C8FF66 -6%, #FFFFFF 28%);
     color: #FFFFFF;
 }
 
+
+
+/* footer section */
+footer{
+    background-color: #01ACFD;
+    height: 519px;
+}
+.footer-section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.footer-icon-title div{
+    width: 300px;
+    margin-bottom: 2rem;
+}
+.footer-icon-title div img{
+    width: 80px;
+    height: 80px;
+}
+.footer-icon-title h1{
+    font-size: 2.63rem;
+    font-weight: 700;
+}
+.footer-icon-title{
+    flex-direction: column;
+    gap: 2rem;
+}
+.footer-icon-title p{
+    width: 400px;
+    font-size: 1.25rem;
+    
+}
+.footer-title-section{
+    text-align: center;
+}
+.footer-title-section div{
+    text-align: start;
+    width: 157px;
+    margin: 0 auto;
+}   
+.About-school{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.footer-title-section div ul{
+    margin-top: 32px;
+    
+}
+.footer-title-section div ul li{
+    list-style: none;
+    margin-bottom: 23px;
+    color: #FFFFFF;
+}
+.footer-links{
+text-align: center;
+}
+.footer-links h3{
+    margin-bottom: 32px;
+    font-size: 26px;
+    font-weight: bold;
+}
 
 
 
