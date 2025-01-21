@@ -266,11 +266,12 @@ background: linear-gradient(to bottom, #64C8FF66 -6%, #FFFFFF 28%);
     display: flex;
     flex-direction: column;
     border-radius: 16px;
+
 }
 .small-box img{
     border-radius: 16px 16px 0 0;
 }
-.small-boxes div p{
+.small-box-p{
     font-size: 15.34px;
     font-weight: 700;
     line-height: 28.8px;
@@ -321,7 +322,7 @@ background: linear-gradient(to bottom, #64C8FF66 -6%, #FFFFFF 28%);
     .banner-image img{
         width: 100%;
     }
-    .nav-section-titles, .nav-school{
+    .nav-section-titles, .nav-school, .big-box{
         display: none;
     }
     .banner-container{
@@ -361,7 +362,7 @@ background: linear-gradient(to bottom, #64C8FF66 -6%, #FFFFFF 28%);
 .curriculam-container h1{
     font-size: 1.62rem;
 }
-.curriculam-boxes{
+.curriculam-boxes {
     grid-template-columns: repeat(1,1fr);
     margin: 20px 16.5px;
     gap: 12.3px;
@@ -375,9 +376,44 @@ background: linear-gradient(to bottom, #64C8FF66 -6%, #FFFFFF 28%);
 }
 
 
-
-
-
-
-
+/* stories */
+.stories-container{
+    padding: 40px 0;
+    gap: 20px;
+}
+.small-boxes{
+    width: 100%;
+    grid-gap: 7.5px;
+}
+.small-box{
+    width: 174px;
+    /* padding: 20px 16px; */
+    gap: 11px;
+}
+.small-box img{
+    width: 100%;
+}
+.small-box button{
+    font-size: 9.13px;
+    height: 22px;
+    top: -24px;
+        left: 22px;
+    }
+.small-box-p{
+    width: 127px;
+    font-size: 9.13px;
+    margin-top: -21px;
+    line-height: 17.1px;
+}
+.mini-btn{
+    position: relative;
+    width: 103px;
+}
+.bg-c-2{
+    background-color: #5D58F0;
+} 
+.stories-container>button{
+    background-color: #000000;
+    color: #FFFFFF;
+}
 }
