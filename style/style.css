@@ -61,13 +61,13 @@
     color: #FFFFFF;
 }
 
-
-
-/* Navbar styles */
 main{
     background: linear-gradient(to top, #FEA3014D -6%, #FFFFFF 28%);
 
 }
+
+/* Navbar styles */
+
 .nav-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -376,7 +376,7 @@ text-align: center;
 /* for small devices */
 @media screen and (max-width:576px) {
     
-    .navbar,.banner-section,{
+    .navbar,.banner-section{
         width: auto;
     }
     .navbar{
