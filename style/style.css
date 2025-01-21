@@ -4,12 +4,19 @@
     box-sizing: border-box;
 }
 
-/* Font */
+/* Quicksand Font */
 .quicksand-normal {
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
     font-style: normal;
   }
+/* Railway font */
+
+.raleway-normal {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 
 /* Commonly used styles styles */
 .width{
@@ -80,18 +87,7 @@
     font-size: 1.25em;
     color: #FFFFFF;
 }
-/* .menu-hide{
-    display: none;
-} */
-/* .menu-bar{
-display: flex;
-flex-direction: column;
-gap: 2px;
-}
-.menu-bar div{
-    height: 2px solid black;
 
-} */
 
 
 
@@ -122,6 +118,81 @@ gap: 2px;
 
 
 
+/* curriculam-section */
+.curriculam-section{
+    background-image: url(../assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: center;
+    padding: 80px 0;
+}
+
+.curriculam-container{
+display: grid;
+grid-template-columns: repeat(1,1fr);
+gap: 80px;
+}
+.curriculam-container h1{
+    text-align: center;
+    font-size: 46px;
+    font-weight: bold;
+}
+.curriculam-boxes{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 28px;
+}
+.curriculam-box{
+    flex-direction: column;
+    gap: 33px;
+}
+.curriculam-box h3{
+    font-size: 24.52px;
+    font-weight: bold;
+}
+.curriculam-box p{
+    font-size: 15.09px;
+    font-weight: medium;
+    text-align: center;
+}
+.curriculam-box span{
+    font-weight: bold;
+    font-size: 1rem;
+    color: #64C8FF;
+}
+.curriculam-boxes .curriculam-box:nth-child(2) span{
+    color: #F0AA00;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.curriculam-boxes .curriculam-box:nth-child(3) span{
+    color: #8700FF;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.less-greater .less, .greater{
+
+    background-color: #FEA301;
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+.less span, .greater span{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -148,10 +219,6 @@ gap: 2px;
          background-position: right;
          background-size: 30px 30px;
     }
-
-    /* .menu-hide{
-        display: inline-block;
-    } */
 
 
 
