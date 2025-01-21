@@ -137,14 +137,29 @@ gap: 80px;
     font-size: 46px;
     font-weight: bold;
 }
+
 .curriculam-boxes{
     display: grid;
     grid-template-columns: repeat(3 ,1fr);
     gap: 28px;
 }
+.linear1{
+background: linear-gradient(to bottom, #64C8FF66 -6%, #FFFFFF 28%);
+}
+
+.linear2{
+    background: linear-gradient(to bottom, #FFF4DC -6%, #FFFFFF 28%);
+}
+.linear3{
+    background: linear-gradient(to bottom, #EEE1FF -6%, #FFFFFF 28%);
+
+    
+}
 .curriculam-box{
     flex-direction: column;
     gap: 33px;
+    border-radius: 12.5px;
+    box-shadow: 0 0 19.16px 0.64px #0000000D ;
 }
 .curriculam-box h3{
     font-size: 24.52px;
@@ -256,5 +271,33 @@ gap: 80px;
         margin: 16px;
         padding:10.21px; 
     }
+
+
+
+    /* curriculam section */
+.curriculam-container{
+    padding-top: 40px;
+}
+.curriculam-container h1{
+    font-size: 1.62rem;
+}
+.curriculam-boxes{
+    grid-template-columns: repeat(1,1fr);
+    margin: 20px 16.5px;
+    gap: 12.3px;
+}
+.curriculam-box{
+    gap: 22px;
+    padding: 32px 28px;
+}
+.less-greater{
+    display: none;
+}
+
+
+
+
+
+
 
 }
