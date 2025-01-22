@@ -339,7 +339,6 @@ text-align: center;
     margin: 20px auto;
     align-items: center;
 }
-
 .nav-icon-box{
     gap: 11px;
     justify-content: flex-start;
@@ -372,15 +371,8 @@ text-align: center;
     color: #FFFFFF;
 }
 
-
-
-
 /* for small devices */
 @media screen and (max-width:576px) {
-    
-    
-
-
     .navbar{
         width: 100%;
         border-bottom: 1px solid #FEA301;
@@ -390,7 +382,7 @@ text-align: center;
     }
     /* navbar hide kore button ene dekhbo git e bug jay kina */
     .nav-container{
-         background-image: url(../assets/bars-solid.svg);
+         background-image: url(../assets/bar.svg);
          background-repeat: no-repeat;
          background-position: right;
          background-size: 30px 30px;
