@@ -308,6 +308,7 @@ background: linear-gradient(to bottom, #64C8FF66 -6%, #FFFFFF 28%);
 footer{
     background-color: #01ACFD;
     height: 519px;
+    flex-direction: column;
 }
 .footer-section{
     display: grid;
@@ -364,13 +365,13 @@ text-align: center;
     font-size: 26px;
     font-weight: bold;
 }
-footer .marquee{
-    text-align: center;
-}
+
 .marquee{
-    width: 1440px;
+
+    font-size: 1.25rem;
+    font-weight: 700;
     color: #FFFFFF;
-    margin-top: 20px;
+    margin: 20px auto;
 }
 
 
