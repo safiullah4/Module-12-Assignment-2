@@ -71,6 +71,46 @@ main{
 
 
 
+/* Navbar styles */
+
+.nav-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 6.23%;
+    margin: 20px auto;
+    align-items: center;
+}
+.nav-icon-box{
+    gap: 11px;
+    justify-content: flex-start;
+}
+.nav-school{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-section-titles ul li{
+    list-style: none;
+    font-weight: bold;
+    font-size: 1.25em;
+    
+}
+.nav-section-titles ul{
+    gap: 2rem;
+}
+.color-3{
+    color: #05D4DF;
+}
+.color-4{
+    color: #5D58EF;
+}
+.nav-btn{
+    text-align: right;
+}
+.nav-btn button{
+    font-weight: 600;
+    font-size: 1.25em;
+    color: #FFFFFF;
+}
 
 
 
@@ -330,46 +370,6 @@ text-align: center;
 
 
 
-/* Navbar styles */
-
-.nav-container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 6.23%;
-    margin: 20px auto;
-    align-items: center;
-}
-.nav-icon-box{
-    gap: 11px;
-    justify-content: flex-start;
-}
-.nav-school{
-    font-size: 2rem;
-    font-weight: bold;
-}
-.nav-section-titles ul li{
-    list-style: none;
-    font-weight: bold;
-    font-size: 1.25em;
-    
-}
-.nav-section-titles ul{
-    gap: 2rem;
-}
-.color-3{
-    color: #05D4DF;
-}
-.color-4{
-    color: #5D58EF;
-}
-.nav-btn{
-    text-align: right;
-}
-.nav-btn button{
-    font-weight: 600;
-    font-size: 1.25em;
-    color: #FFFFFF;
-}
 
 /* for small devices */
 @media screen and (max-width:576px) {
@@ -380,11 +380,10 @@ text-align: center;
     .nav-container{
         margin: 12px 16px;
     }
-    /* navbar hide kore button ene dekhbo git e bug jay kina */
     .nav-container{
          background-image: url("../assets/bar.svg");
          background-repeat: no-repeat;
-         background-position: right;
+         background-position: right center;
          background-size: 30px 30px;
     }
 
