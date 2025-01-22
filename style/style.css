@@ -364,7 +364,14 @@ text-align: center;
     font-size: 26px;
     font-weight: bold;
 }
-
+footer .marquee{
+    text-align: center;
+}
+.marquee{
+    width: 1440px;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
 
 
 
@@ -405,7 +412,7 @@ text-align: center;
     .banner-image img{
         width: 100%;
     }
-    .nav-section-titles, .nav-school, .big-box{
+    .nav-section-titles, .nav-school, .big-box, .marquee{
         display: none;
     }
     .banner-container{
